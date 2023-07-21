@@ -1,0 +1,3 @@
+train percent: 0.8
+dynamic window size: 512
+jump: 1

@@ -1,0 +1,4 @@
+val para: 1
+manual seed: 2023
+epoch_info_interval: 5
+batch size: 64

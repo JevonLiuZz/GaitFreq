@@ -1,0 +1,17 @@
+data_path: ./FileRead/MatFiles/40_val.mat
+label_path: ./FileRead/MatFiles/40_label.mat
+manual seed: 2023
+
+batch size: 64
+epoch size: 15
+learning rate: 0.1
+weight decay: 0.1
+
+epoch_info_interval: 3
+Optimizer: Adam
+scheduler para: 5
+
+scheduler:
+  name: CosineAnnealingLR  # ExponentialLR
+  T_max: 15
+  eta_min: 0.01
